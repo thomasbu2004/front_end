@@ -1,0 +1,24 @@
+figure{
+    text-align: center;
+}
+h1{
+    background-color: #C4C4C4;
+    color:#005677;
+    text-align: center;
+}
+.titulos{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+.subtitulo{
+    font-style: italic;
+    font-weight: bolder;
+}
+.negrillas{
+    font-weight: bolder;
+}
+p{
+    background-color:#005677;
+    font-size: 20px;
+    text-align: center;
+}
