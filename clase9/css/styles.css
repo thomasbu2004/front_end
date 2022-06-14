@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#primera{
+    background-color: #222222;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+}
+#idiomas{
+    display: inline-block;
+    position: relative;
+    left: 880px;
+}
+#comedores{
+    margin-left: 90px;
+}
+#principal{
+    background: #F0A83E;
+    height: 62px;
+    font-weight: bolder;
+}
+.titulo{
+    height: 100%;
+}
+.titulo-text{
+    display: inline-block;
+    line-height: 62px;
+    position: relative;
+    left: 40.8px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#front{
+    color: #3C2313;
+}
+#cat_dog{
+    color: #FFFFFF;
+}
+#menu{
+    padding-right: 50px;
+    margin-top: 20px;
+    float: right;
+}
+#menu ul li{
+    color: #fff;
+    padding: 30px;
+    display: inline;
+}
+#menu ul li i{
+    padding-right: 5px;
+}
+
+#slide{
+    height: 450px;
+    width: 100%;
+    background-image: url("../img/slide_petshop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-div{
+    text-align: center;
+    padding-top: 30vh;
+    padding-left: 70vw;
+    width: 380px;
+}
+
+#slide-title{
+    padding: 10px;
+    background-color: #fff;
+    color: #3C2313;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+#slide-desc{
+    color: #3C2313;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+#slide-button{
+    padding: 15px 23px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.contenedor1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contenedor1 h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #3C2313;
+}
+
+.contenedor1 span{
+    color: #666666;
+}
+
+.contenedor2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.products{
+    text-align: center;
+}
+
+.product-name{
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.product-prize{
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#comedero{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.contenedor3{
+    margin-top: 90px; 
+    height: 265px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 500px;
+    
+}
+
+.contenedor3 h2{
+    text-align: center;
+    color: #3C2313;
+}
+
+.contenedor3 p{
+    margin-top: 20px;
+    background-color: #3C2313;
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+    line-height: 40px;
+    font-size: 9px;
+    padding-left: 14px;
+}
+
+#buttons{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    /* display: inline-block; */
+    
+}
+
+.contenedor3-boxes{
+    width: 340px;
+}
+#send-button{
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #F0A83E;
+    width: 100px;
+    height: 35px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    line-height: 35px;
+}
+
+#reset-button{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 5px;
+    background-color: #8A8787;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.barra-superior{
+    margin-top: 500px;
+    background-color: #F0A83E;
+    height: 60px;
+    line-height: 40px;
+}
+
+.suscribete{
+    padding-left: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.suscribete i{
+    margin-right: 5px;
+}
+
+#email-box{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    width: 270px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: #A0A0A0;
+    font-size: 10px;
+    padding-left: 8px;
+}
+
+#suscribirme{
+    display: inline-block;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    position: relative;
+    left: 610px;
+    padding-left: 18px;
+    font-size: 12px;
+}
+
+#footer img{
+    width: 100%;
+}
